@@ -20,6 +20,7 @@ test.describe("Test Group", () => {
 
     for (let e of elements) {
       await expect(e).toBeVisible();
+      
       //expect(await e.isVisible()).toBeTruthy();
 
       // ----------------------------------------------------------------
