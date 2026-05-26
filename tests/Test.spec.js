@@ -13,7 +13,7 @@ test('verify links under ul tag are displayed and enabled', async ({ page }) => 
 
   await expect(allLinks).toHaveCount(50);
 
-  // Step 6: Verify all links are visible and enabled
+  // Step 6: Verify all links are visible and enabled....
   const linksCount = await allLinks.count();
   for (let i = 0; i < linksCount; i++) {
     const link = allLinks.nth(i);
